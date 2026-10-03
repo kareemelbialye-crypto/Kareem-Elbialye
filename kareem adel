@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kareem Adel - Sales Manager</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f5f7;
+    color: #17212b;
+  }
+  .page {
+    width: min(900px, 94vw);
+    min-height: 1270px;
+    margin: 28px auto;
+    background: #fff;
+    box-shadow: 0 10px 35px rgba(0,0,0,.10);
+    overflow: hidden;
+  }
+  .hero {
+    padding: 70px 70px 55px;
+    background: linear-gradient(135deg, #0f1720, #243746);
+    color: white;
+  }
+  .eyebrow {
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: .75;
+    margin-bottom: 28px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 52px;
+    line-height: 1.05;
+    font-weight: 700;
+  }
+  .role {
+    margin-top: 14px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #c8d5df;
+  }
+  .intro {
+    max-width: 680px;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #e7edf1;
+  }
+  .content {
+    padding: 48px 70px 70px;
+  }
+  .section-title {
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #687784;
+    margin: 0 0 22px;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 35px;
+    margin-bottom: 45px;
+  }
+  .item {
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e9ec;
+    font-size: 15px;
+  }
+  .label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #89959e;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .name {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  .job {
+    padding: 24px 0;
+    border-top: 1px solid #e5e9ec;
+  }
+  .job-title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .company {
+    color: #687784;
+    margin-top: 6px;
+  }
+  .stats {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+  }
+  .stat {
+    padding: 14px 18px;
+    background: #f4f6f8;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  @media print {
+    body { background: white; }
+    .page { width: 100%; margin: 0; box-shadow: none; }
+  }
+  @media (max-width: 650px) {
+    .hero, .content { padding-left: 30px; padding-right: 30px; }
+    h1 { font-size: 38px; }
+    .contact { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+    <div class="eyebrow">Open to opportunities</div>
+    <h1>Kareem Adel</h1>
+    <div class="role">Sales Manager</div>
+    <p class="intro">
+      Dynamic Sales Manager with a proven track record in driving sales growth
+      and leading high-performing teams. I combine an engineering background
+      with commercial expertise to deliver real business results.
+    </p>
+  </header>
+
+  <section class="content">
+    <h2 class="section-title">Profile</h2>
+    <div class="name">Kareem Adel Ismail Lotfy Elbialy</div>
+
+    <div class="contact">
+      <div class="item"><span class="label">Location</span>Mansoura, Dakahlia, Egypt</div>
+      <div class="item"><span class="label">Experience</span>3+ Years Experience</div>
+      <div class="item"><span class="label">Languages</span>Arabic / English</div>
+      <div class="item"><span class="label">Phone</span>+20 109 144 0174</div>
+      <div class="item"><span class="label">Email</span>Kareemelbialye@gmail.com</div>
+      <div class="item"><span class="label">Current Position</span>Azzrk Digital Marketing</div>
+    </div>
+
+    <h2 class="section-title">Current Role</h2>
+    <div class="job">
+      <div class="job-title">Sales Manager</div>
+      <div class="company">Currently @ Azzrk Digital Marketing</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">📍 Mansoura, Dakahlia, Egypt</div>
+      <div class="stat">📈 3+ Years Experience</div>
+      <div class="stat">🌐 Arabic / English</div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
